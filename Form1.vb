@@ -12,6 +12,11 @@
             Next
             Vectors(S) = vector(I) + vector(I - 1)
         Next
-
+        For I = 1 To 10
+            lblVector.Items.Add(vector(I))
+        Next
+        For S = 1 To 15
+            lblVectors.Items.Add(Vectors(S))
+        Next
     End Sub
 End Class
